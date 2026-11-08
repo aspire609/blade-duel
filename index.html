@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Blade Aura: Duel</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="hud" class="off"><div id="fl"></div><div id="bn"></div><div id="st"></div><div id="cb"></div><div id="hb"><i id="hf"></i></div><div id="sm"><i id="sf"></i></div></div>
+<div class="ov" id="menu"><div class="card">
+<h1>Blade Aura: Duel</h1>
+<p id="mp">Your mouse is the sword arm. There are no buttons to slash: the blade has weight, and its speed on impact is your damage. Whip it fast, and hit enemies mid wind-up to break their attacks.</p>
+<dl><dt>Mouse</dt><dd>Move the blade (faster = harder hit)</dd><dt>W A S D</dt><dd>Move, Shift to sprint</dd><dt>Q E</dt><dd>Turn (you auto-face the nearest foe)</dd><dt>Space</dt><dd>Dodge roll, brief invulnerability</dd></dl>
+<button id="go">Enter the arena</button></div></div>
+<div class="ov off" id="over"><div class="card">
+<h1>Fallen</h1><div class="big" id="fs">0</div><p id="fd"></p><button id="again">Fight again</button></div></div>
+<script src="lib/three.min.js"></script>
+<script src="js/scene.js"></script>
+<script src="js/effects.js"></script>
+<script src="js/characters.js"></script>
+<script src="js/game.js"></script>
+<script src="js/sword.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
